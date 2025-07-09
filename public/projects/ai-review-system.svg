@@ -1,0 +1,49 @@
+<svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="250" fill="url(#grad1)" rx="12"/>
+  
+  <!-- AI Brain Icon -->
+  <circle cx="80" cy="80" r="30" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="2"/>
+  <path d="M65 70 Q80 60 95 70 Q100 80 95 90 Q80 100 65 90 Q60 80 65 70" fill="white" opacity="0.8"/>
+  <circle cx="75" cy="75" r="3" fill="white"/>
+  <circle cx="85" cy="75" r="3" fill="white"/>
+  <circle cx="80" cy="85" r="3" fill="white"/>
+  
+  <!-- Review Stars -->
+  <g transform="translate(280, 60)">
+    <polygon points="10,0 13,6 20,6 15,10 17,17 10,13 3,17 5,10 0,6 7,6" fill="#fbbf24"/>
+    <polygon points="30,0 33,6 40,6 35,10 37,17 30,13 23,17 25,10 20,6 27,6" fill="#fbbf24"/>
+    <polygon points="50,0 53,6 60,6 55,10 57,17 50,13 43,17 45,10 40,6 47,6" fill="#fbbf24"/>
+    <polygon points="70,0 73,6 80,6 75,10 77,17 70,13 63,17 65,10 60,6 67,6" fill="#fbbf24"/>
+    <polygon points="90,0 93,6 100,6 95,10 97,17 90,13 83,17 85,10 80,6 87,6" fill="#fbbf24"/>
+  </g>
+  
+  <!-- Text Analysis -->
+  <rect x="50" y="140" width="300" height="8" fill="rgba(255,255,255,0.3)" rx="4"/>
+  <rect x="50" y="155" width="250" height="8" fill="rgba(255,255,255,0.3)" rx="4"/>
+  <rect x="50" y="170" width="280" height="8" fill="rgba(255,255,255,0.3)" rx="4"/>
+  
+  <!-- Sentiment Indicators -->
+  <circle cx="120" cy="200" r="15" fill="#10b981"/>
+  <text x="120" y="205" text-anchor="middle" fill="white" font-size="12" font-weight="bold">+</text>
+  
+  <circle cx="200" cy="200" r="15" fill="#f59e0b"/>
+  <text x="200" y="205" text-anchor="middle" fill="white" font-size="12" font-weight="bold">~</text>
+  
+  <circle cx="280" cy="200" r="15" fill="#ef4444"/>
+  <text x="280" y="205" text-anchor="middle" fill="white" font-size="12" font-weight="bold">-</text>
+  
+  <!-- Project Title -->
+  <text x="200" y="230" text-anchor="middle" fill="white" font-size="14" font-weight="bold">AI Review Management</text>
+</svg> 
