@@ -52,7 +52,7 @@ function Home() {
               <button className="btn btn-secondary" onClick={() => scrollToSection('contact')}>
                 <FontAwesomeIcon icon={faEnvelope} /> Get In Touch
               </button>
-              <a href="/cv/Md_Robayed_Molla_CV.pdf" className="btn btn-outline" download>
+              <a href={process.env.PUBLIC_URL + "/cv/Md_Robayed_Molla_CV.pdf"} className="btn btn-outline" download>
                 <FontAwesomeIcon icon={faDownload} /> Download CV
               </a>
             </div>
@@ -67,7 +67,7 @@ function Home() {
           </div>
           <div className="hero-image">
             <div className="profile-image">
-              <img src="/photo/robayed.jpg" alt="Md. Robayed Molla" />
+              <img src={process.env.PUBLIC_URL + "/photo/robayed.jpg"} alt="Md. Robayed Molla"  />
             </div>
           </div>
         </div>
@@ -501,7 +501,8 @@ function Navigation() {
 // Main App Component
 function App() {
   return (
-    <Router>
+    
+    <Router basename="/Portfolio">
       <div className="App">
         <Navigation />
         <Routes>
