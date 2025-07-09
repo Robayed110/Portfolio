@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.17ffae51.css",
-    "main.js": "/Portfolio/static/js/main.d059427f.js",
-    "static/js/453.c173b4f9.chunk.js": "/Portfolio/static/js/453.c173b4f9.chunk.js",
-    "index.html": "/Portfolio/index.html",
-    "main.17ffae51.css.map": "/Portfolio/static/css/main.17ffae51.css.map",
-    "main.d059427f.js.map": "/Portfolio/static/js/main.d059427f.js.map",
-    "453.c173b4f9.chunk.js.map": "/Portfolio/static/js/453.c173b4f9.chunk.js.map"
+    "main.css": "https://robayed110.github.io/Portfolio/static/css/main.17ffae51.css",
+    "main.js": "https://robayed110.github.io/Portfolio/static/js/main.4fc09084.js",
+    "static/js/453.c173b4f9.chunk.js": "https://robayed110.github.io/Portfolio/static/js/453.c173b4f9.chunk.js",
+    "index.html": "https://robayed110.github.io/Portfolio/index.html",
+    "main.17ffae51.css.map": "https://robayed110.github.io/Portfolio/static/css/main.17ffae51.css.map",
+    "main.4fc09084.js.map": "https://robayed110.github.io/Portfolio/static/js/main.4fc09084.js.map",
+    "453.c173b4f9.chunk.js.map": "https://robayed110.github.io/Portfolio/static/js/453.c173b4f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17ffae51.css",
-    "static/js/main.d059427f.js"
+    "static/js/main.4fc09084.js"
   ]
 }
