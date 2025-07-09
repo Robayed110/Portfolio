@@ -196,7 +196,7 @@ function Home() {
             </div>
             <div className="project-card">
               <div className="project-image">
-                <img src={process.env.PUBLIC_URL + "/projects/bus-ticketing.svg"} alt="Easy-Travel Bus Ticketing" />
+                <img src={process.env.PUBLIC_URL + "projects/bus-ticketing.svg"} alt="Easy-Travel Bus Ticketing" />
                 <div className="project-overlay">
                   <FontAwesomeIcon icon={faExternalLinkAlt} />
                 </div>
@@ -220,7 +220,7 @@ function Home() {
             </div>
             <div className="project-card">
               <div className="project-image">
-                <img src={process.env.PUBLIC_URL + "/projects/car-app.svg"} alt="SellXChange Car App" />
+                <img src={process.env.PUBLIC_URL + "projects/car-app.svg"} alt="SellXChange Car App" />
                 <div className="project-overlay">
                   <FontAwesomeIcon icon={faExternalLinkAlt} />
                 </div>
