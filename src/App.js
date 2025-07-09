@@ -242,7 +242,7 @@ function Home() {
             </div>
             <div className="project-card">
               <div className="project-image">
-                <img src={process.env.PUBLIC_URL + "/projects/blockchain.svg"} alt="Blockchain Verification" />
+                <img src={process.env.PUBLIC_URL + "projects/blockchain.svg"} alt="Blockchain Verification" />
                 <div className="project-overlay">
                   <FontAwesomeIcon icon={faExternalLinkAlt} />
                 </div>
