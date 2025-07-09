@@ -173,7 +173,7 @@ function Home() {
           <div className="projects-grid">
             <div className="project-card">
               <div className="project-image">
-                <img src="/projects/ai-review-system.svg" alt="AI Review Management System" />
+                <img src={process.env.PUBLIC_URL +"projects/ai-review-system.svg"} alt="AI Review Management System" />
                 <div className="project-overlay">
                   <FontAwesomeIcon icon={faExternalLinkAlt} />
                 </div>
@@ -196,7 +196,7 @@ function Home() {
             </div>
             <div className="project-card">
               <div className="project-image">
-                <img src="/projects/bus-ticketing.svg" alt="Easy-Travel Bus Ticketing" />
+                <img src={process.env.PUBLIC_URL + "/projects/bus-ticketing.svg"} alt="Easy-Travel Bus Ticketing" />
                 <div className="project-overlay">
                   <FontAwesomeIcon icon={faExternalLinkAlt} />
                 </div>
@@ -220,7 +220,7 @@ function Home() {
             </div>
             <div className="project-card">
               <div className="project-image">
-                <img src="/projects/car-app.svg" alt="SellXChange Car App" />
+                <img src={process.env.PUBLIC_URL + "/projects/car-app.svg"} alt="SellXChange Car App" />
                 <div className="project-overlay">
                   <FontAwesomeIcon icon={faExternalLinkAlt} />
                 </div>
@@ -242,7 +242,7 @@ function Home() {
             </div>
             <div className="project-card">
               <div className="project-image">
-                <img src="/projects/blockchain.svg" alt="Blockchain Verification" />
+                <img src={process.env.PUBLIC_URL + "/projects/blockchain.svg"} alt="Blockchain Verification" />
                 <div className="project-overlay">
                   <FontAwesomeIcon icon={faExternalLinkAlt} />
                 </div>
@@ -266,7 +266,7 @@ function Home() {
             </div>
             <div className="project-card">
               <div className="project-image">
-                <img src="/projects/temperature-dashboard.svg" alt="Temperature Dashboard" />
+                <img src={process.env.PUBLIC_URL + "/projects/temperature-dashboard.svg"} alt="Temperature Dashboard" />
                 <div className="project-overlay">
                   <FontAwesomeIcon icon={faExternalLinkAlt} />
                 </div>
@@ -289,7 +289,7 @@ function Home() {
             </div>
             <div className="project-card">
               <div className="project-image">
-                <img src="/projects/backgammon-game.svg" alt="Backgammon AI Game" />
+                <img src={process.env.PUBLIC_URL + "/projects/backgammon-game.svg"} alt="Backgammon AI Game" />
                 <div className="project-overlay">
                   <FontAwesomeIcon icon={faExternalLinkAlt} />
                 </div>
@@ -311,7 +311,7 @@ function Home() {
             </div>
             <div className="project-card">
               <div className="project-image">
-                <img src="/projects/cardiac-recorder.svg" alt="Cardiac Recorder Health App" />
+                <img src={process.env.PUBLIC_URL + "/projects/cardiac-recorder.svg"} alt="Cardiac Recorder Health App" />
                 <div className="project-overlay">
                   <FontAwesomeIcon icon={faExternalLinkAlt} />
                 </div>
@@ -334,7 +334,7 @@ function Home() {
             </div>
             <div className="project-card">
               <div className="project-image">
-                <img src="/projects/biowell.svg" alt="BioWell iOS Health App" />
+                <img src={process.env.PUBLIC_URL + "/projects/biowell.svg"} alt="BioWell iOS Health App" />
                 <div className="project-overlay">
                   <FontAwesomeIcon icon={faExternalLinkAlt} />
                 </div>
