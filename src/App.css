@@ -352,11 +352,12 @@ section {
 /* Skills Section */
 .skills {
   background-color: #f8f9fa;
-  margin-top: 70px;
+  
 }
 
 .skills-grid {
   display: grid;
+  margin-top: 70px;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
 }
@@ -412,11 +413,12 @@ section {
 /* Projects Section */
 .projects {
   background-color: white;
-  margin-top: 70px;
+  
 }
 
 .projects-grid {
   display: grid;
+  margin-top: 70px;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
 }
@@ -528,13 +530,16 @@ section {
 /* Contact Section */
 .contact {
   background-color: #f8f9fa;
-  margin-top: 70px;
+  /* margin-top: 70px; */
+  margin-bottom: 70px;
+  
 }
 
 .contact-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
+  /* margin-top: 70px; */
   max-width: 1000px;
   margin: 0 auto;
 }
