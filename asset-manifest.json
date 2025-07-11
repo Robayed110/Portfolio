@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "https://robayed110.github.io/Portfolio/static/css/main.5bcbcd43.css",
+    "main.css": "https://robayed110.github.io/Portfolio/static/css/main.6a267b6a.css",
     "main.js": "https://robayed110.github.io/Portfolio/static/js/main.df255d15.js",
     "static/js/453.c173b4f9.chunk.js": "https://robayed110.github.io/Portfolio/static/js/453.c173b4f9.chunk.js",
     "index.html": "https://robayed110.github.io/Portfolio/index.html",
-    "main.5bcbcd43.css.map": "https://robayed110.github.io/Portfolio/static/css/main.5bcbcd43.css.map",
+    "main.6a267b6a.css.map": "https://robayed110.github.io/Portfolio/static/css/main.6a267b6a.css.map",
     "main.df255d15.js.map": "https://robayed110.github.io/Portfolio/static/js/main.df255d15.js.map",
     "453.c173b4f9.chunk.js.map": "https://robayed110.github.io/Portfolio/static/js/453.c173b4f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bcbcd43.css",
+    "static/css/main.6a267b6a.css",
     "static/js/main.df255d15.js"
   ]
 }
