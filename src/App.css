@@ -530,14 +530,15 @@ section {
 /* Contact Section */
 .contact {
   background-color: #f8f9fa;
-  margin-top: 70px;
+  margin-top: 80px;
+  /* margin-bottom: 70px; */
+
   
   
 }
 
 .contact-content {
   display: grid;
-  /* margin-bottom: 150px; */
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   max-width: 1000px;
