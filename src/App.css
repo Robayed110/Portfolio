@@ -530,7 +530,7 @@ section {
 /* Contact Section */
 .contact {
   background-color: #f8f9fa;
-  /* margin-top: 70px; */
+  margin-top: 70px;
   margin-bottom: 70px;
   
 }
@@ -539,7 +539,6 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
-  /* margin-top: 70px; */
   max-width: 1000px;
   margin: 0 auto;
 }
