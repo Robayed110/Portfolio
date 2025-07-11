@@ -431,7 +431,7 @@ function Navigation() {
   useEffect(() => {
     const handleScroll = () => {
       const sections = ['home', 'about', 'skills', 'projects', 'contact'];
-      const scrollPosition = window.scrollY + 100;
+      const scrollPosition = window.scrollY + 170;
 
       for (const section of sections) {
         const element = document.getElementById(section);
@@ -453,6 +453,7 @@ function Navigation() {
 
   // Close menu on nav click (mobile)
   const handleNavClick = (sectionId) => {
+    setActiveSection(sectionId);
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
